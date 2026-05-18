@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
-const products = require('../db/db');
-const Cart = require('../db/db');
+const products = require('../db/products');
+const Cart = require('../db/cart');
 
 app.get('/products',(req,res)=>{
     try{
@@ -13,7 +13,7 @@ app.get('/products',(req,res)=>{
     }
 });
 
-app.get('/api/Cart',(req,res)=>{
+app.get('/Cart',(req,res)=>{
     try{
         res.json(Cart);
     }

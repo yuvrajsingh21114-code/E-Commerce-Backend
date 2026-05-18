@@ -5,7 +5,7 @@ const cors=require('cors');
 app.use(cors());
 
 const productroutes= require('./routes/productroutes');
-app.use('/', productroutes);
+app.use('/api/', productroutes);
 
 app.listen(5000,()=>{
     console.log("Server Running at port 5000")
