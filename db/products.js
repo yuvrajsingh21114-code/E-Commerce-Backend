@@ -131,14 +131,6 @@ const products= [
         image: "/images/monitor.jpg",
         description: "27-inch 144Hz gaming monitor."
     },
-    {
-        id: 2001,
-        name: "Speaker"
-    },
-    {
-        id:2002,
-        name: "Tv"
-    }
 ];
 
 module.exports=products;
