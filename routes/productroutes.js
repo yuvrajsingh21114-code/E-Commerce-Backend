@@ -43,7 +43,7 @@ app.post('/product', (req, res) => {
 
             Cart.push(data);
             res.send('Added to cart');
-        }, 1000);
+        }, 500);
 
     }
     catch (err) {
