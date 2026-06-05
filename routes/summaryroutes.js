@@ -1,6 +1,7 @@
 const express= require('express');
 const app= express();
 const cart= require('../db/cart');
+const orders= require('../db/orders');
 
 let totalcost=0,i;
 let shippingcost=cart.length*40;
@@ -21,6 +22,18 @@ app.get('/summary',(req,res)=>{
     catch(err){
         console.log(err);
         res.status(500).send('Error');        
+    }
+});
+
+app.post('/summary',(req,res)=>{
+    try{
+        orders.push(...cart);
+        cart.length=0;
+        res.send("Placed order");
+    }
+    catch(err){
+        console.log(err);
+        res.status(409).send('Error');
     }
 })
 
