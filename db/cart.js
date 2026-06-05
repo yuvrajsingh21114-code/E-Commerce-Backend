@@ -7,7 +7,7 @@ const Cart= [
         brand: "Xiaomi",
         rating: 4.0,
         stock: 14,
-        image: "/images/band.jpg",
+        image: "http://localhost:5000/api/uploads/band.webp",
         description: "Fitness tracker with heart rate monitoring."
     },
     {
@@ -18,7 +18,7 @@ const Cart= [
         brand: "Green Soul",
         rating: 4.5,
         stock: 7,
-        image: "/images/chair.jpg",
+        image: "http://localhost:5000/api/uploads/chair.webp",
         description: "Ergonomic office chair with lumbar support."
     },
     {
@@ -29,7 +29,7 @@ const Cart= [
         brand: "OnePlus",
         rating: 4.6,
         stock: 9,
-        image: "/images/phone.jpg",
+        image: "http://localhost:5000/api/uploads/phone.webp",
         description: "5G smartphone with AMOLED display."
     }
 ];

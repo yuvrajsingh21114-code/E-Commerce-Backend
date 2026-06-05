@@ -7,7 +7,7 @@ const products= [
         brand: "JBL",
         rating: 4.5,
         stock: 12,
-        image: "/images/speaker.jpg",
+        image: "http://localhost:5000/api/uploads/speaker.webp",
         description: "Portable wireless speaker with deep bass."
     },
     {
@@ -18,7 +18,7 @@ const products= [
         brand: "Samsung",
         rating: 4.7,
         stock: 5,
-        image: "/images/tv.jpg",
+        image: "http://localhost:5000/api/uploads/tv.webp",
         description: "43-inch 4K Ultra HD Smart TV."
     },
     {
@@ -29,7 +29,7 @@ const products= [
         brand: "Nike",
         rating: 4.4,
         stock: 20,
-        image: "/images/shoes.jpg",
+        image: "http://localhost:5000/api/uploads/shoes.webp",
         description: "Lightweight running shoes for daily training."
     },
     {
@@ -40,7 +40,7 @@ const products= [
         brand: "Logitech",
         rating: 4.6,
         stock: 15,
-        image: "/images/mouse.jpg",
+        image: "http://localhost:5000/api/uploads/mouse.webp",
         description: "RGB gaming mouse with adjustable DPI."
     },
     {
@@ -51,7 +51,7 @@ const products= [
         brand: "Redragon",
         rating: 4.3,
         stock: 10,
-        image: "/images/keyboard.jpg",
+        image: "http://localhost:5000/api/uploads/keyboard.webp",
         description: "Mechanical keyboard with blue switches."
     },
     {
@@ -62,7 +62,7 @@ const products= [
         brand: "Boat",
         rating: 4.2,
         stock: 18,
-        image: "/images/earbuds.jpg",
+        image: "http://localhost:5000/api/uploads/earbuds.webp",
         description: "True wireless earbuds with noise cancellation."
     },
     {
@@ -73,7 +73,7 @@ const products= [
         brand: "Skybags",
         rating: 4.1,
         stock: 25,
-        image: "/images/backpack.jpg",
+        image: "http://localhost:5000/api/uploads/backpack.webp",
         description: "Water-resistant backpack with laptop compartment."
     },
     {
@@ -84,7 +84,7 @@ const products= [
         brand: "Xiaomi",
         rating: 4.0,
         stock: 14,
-        image: "/images/band.jpg",
+        image: "http://localhost:5000/api/uploads/band.webp",
         description: "Fitness tracker with heart rate monitoring."
     },
     {
@@ -95,7 +95,7 @@ const products= [
         brand: "Green Soul",
         rating: 4.5,
         stock: 7,
-        image: "/images/chair.jpg",
+        image: "http://localhost:5000/api/uploads/chair.webp",
         description: "Ergonomic office chair with lumbar support."
     },
     {
@@ -106,7 +106,7 @@ const products= [
         brand: "OnePlus",
         rating: 4.6,
         stock: 9,
-        image: "/images/phone.jpg",
+        image: "http://localhost:5000/api/uploads/phone.webp",
         description: "5G smartphone with AMOLED display."
     },
     {
@@ -117,7 +117,7 @@ const products= [
         brand: "Philips",
         rating: 4.2,
         stock: 6,
-        image: "/images/coffee.jpg",
+        image: "http://localhost:5000/api/uploads/coffee.webp",
         description: "Automatic coffee maker for home use."
     },
     {
@@ -128,7 +128,7 @@ const products= [
         brand: "LG",
         rating: 4.7,
         stock: 4,
-        image: "/images/monitor.jpg",
+        image: "http://localhost:5000/api/uploads/monitor.webp",
         description: "27-inch 144Hz gaming monitor."
     },
 ];
