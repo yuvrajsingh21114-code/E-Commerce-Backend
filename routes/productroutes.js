@@ -14,16 +14,6 @@ app.get('/products', (req, res) => {
     }
 });
 
-app.get('/Cart', (req, res) => {
-    try {
-        res.json(Cart);
-    }
-    catch (err) {
-        console.log(err);
-        res.status(500).send('ERROR');
-    }
-});
-
 app.post('/product', (req, res) => {
     try {
         let reqdata = req.body.id;

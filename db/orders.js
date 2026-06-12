@@ -1,25 +1,27 @@
 const products= [
-    {
-        id: 2001,
-        name: "Bluetooth Speaker",
-        price: 2499,
-        category: "Electronics",
-        brand: "JBL",
+   {
+        id: 2009,
+        name: "Office Chair",
+        price: 8999,
+        category: "Furniture",
+        brand: "Green Soul",
         rating: 4.5,
-        stock: 12,
-        image: "http://localhost:5000/api/uploads/speaker.webp",
-        description: "Portable wireless speaker with deep bass."
+        stock: 7,
+        delivery: 1,
+        image: "http://localhost:5000/api/uploads/chair.webp",
+        description: "Ergonomic office chair with lumbar support."
     },
     {
-        id: 2002,
-        name: "Smart TV",
-        price: 32999,
+        id: 2010,
+        name: "Smartphone",
+        price: 24999,
         category: "Electronics",
-        brand: "Samsung",
-        rating: 4.7,
-        stock: 5,
-        image: "http://localhost:5000/api/uploads/tv.webp",
-        description: "43-inch 4K Ultra HD Smart TV."
+        brand: "OnePlus",
+        rating: 4.6,
+        stock: 9,
+        delivery: 1,
+        image: "http://localhost:5000/api/uploads/phone.webp",
+        description: "5G smartphone with AMOLED display."
     }
 ];
 
